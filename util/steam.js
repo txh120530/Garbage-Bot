@@ -2,7 +2,7 @@ const request = require('request');
 const Fuse = require("fuse.js");
 const _ = require("underscore");
 
-const { steamKey } = require('./config.json');
+const { steamKey } = require('../config.json');
 
 const steamIDSearch = function(search, callback){
 	request('http://api.steampowered.com/ISteamApps/GetAppList/v0002', function (error, response, body) {

@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const steam = require('./commands/steam.js');
 
 const fs = require('fs');
 
